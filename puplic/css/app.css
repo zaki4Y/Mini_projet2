@@ -1,4 +1,7 @@
 /* wissal */
+.wissal{
+    padding: 20px 35px;
+}
 .red {
     color: red;
     font-family: sans-serif;
@@ -13,30 +16,30 @@
 }
 
 .s1 {
-    display: flex;
-    ;
+    display: flex; 
+    gap: 5px;
     width: 100%;
     justify-content: space-between;
 
 }
 
 .subject {
-    background-color: lightblue;
+    background-color: rgb(240, 250, 254);
     width: 50%;
     color: rgb(44, 44, 118);
 }
 
 input {
-    background-color: lightblue;
+    background-color: rgb(240, 250, 254);
     width: 700px;
     height: 30px;
-    color: rgb(44, 44, 94);
+    border: none;
 
 }
 
 .s2 {
-    background-color: lightblue;
-    border: 2px solid lightblue;
+    background-color: rgb(240, 250, 254);
+    border: none;
     height: 55px;
     width: 100%;
     color: rgb(44, 44, 104);
