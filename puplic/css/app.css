@@ -1,9 +1,8 @@
-
-
-
-
-
 /* zaki_navbar_debut*/
+section {
+    margin-top: 1vh;
+}
+
 .header {
     position: sticky;
     top: 0;
@@ -14,11 +13,13 @@
     z-index: 1;
     background: white
 }
+
 .logo {
     font-size: 32px;
     color: black;
     text-decoration: none;
 }
+
 .navbar a {
     font-size: 18px;
     color: black;
@@ -28,10 +29,11 @@
 .button  {
     border: 10px solid whitesmoke;
     box-shadow: 0 0 5px cyan;
+    margin-left: 50px;
     
 
-
 }
+
 .logo:hover {
     border-bottom: 5px solid red;
 }
@@ -44,8 +46,9 @@ button:hover {
     color: red;
     box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
         0 0 200px cyan;
-    cursor: pointer;    
+    cursor: pointer;
 }
+
 /* zaki_navbar_fin*/
 
 /* zak_section1 */
@@ -57,8 +60,11 @@ button:hover {
     align-items: start;
     justify-content: space-around;
 }
-.text {
-    color: black;
+
+.text2 {
+    font-family: sans-serif;
+    font-size: xx-large;
+    color: rgb(36, 36, 107);
     font-size: 40px;
     margin-bottom: 5px;
     display: flex;
@@ -68,7 +74,8 @@ button:hover {
 
 
 }
-.text{
+
+.text {
     color: blue;
     font-size: 16px;
     line-height: 30px;
@@ -76,20 +83,194 @@ button:hover {
     height: 100%;
 
 }
-.img{
+
+.img {
     width: 50%;
     height: 100%;
 
 
 
 }
-img {
+
+.img2 {
     width: 100%;
     height: 100%;
 }
-.text2 {
+
+/* partie achraf */
+/* section2 */
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+.s2-parent {
+    display: flex;
+    width: 80%;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+/* PART1 */
+
+.s2-child1 {
+    width: 30%;
+    height: 100%;
+
+}
+
+.s2-p1 {
     font-family: sans-serif;
     font-size: xx-large;
     color: rgb(36, 36, 107);
 }
+
 /* finsection */
+
+.s2-button {
+    background-color: red;
+    border-radius: 10px;
+    border: red 3px;
+    height: 5vh;
+    color: white;
+}
+
+/* part2  */
+img {
+    margin-top: 1%;
+}
+
+.s2-p23 {
+    margin-left: 3%;
+    font-family: sans-serif;
+    font-size: x-large;
+    color: rgb(36, 36, 107);
+}
+
+.s2-child23 {
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    border: rgb(245, 235, 235) solid 2px;
+}
+
+.s2-p232 {
+    color: rgb(36, 36, 107);
+    font-size: small;
+    margin-left: 3%;
+}
+
+/* finich section2 */
+/* wissal */
+.wissal {
+    width: 80%;
+}
+
+.parent-wissal {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    color: red;
+    font-family: sans-serif;
+    font-size: large;
+
+}
+
+.blue {
+    color: rgb(37, 37, 106);
+    font-size: xX-large;
+    font-family: sans-serif;
+}
+
+.s1 {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.subject {
+    background-color: rgb(240, 250, 254);
+    width: 50%;
+    color: rgb(44, 44, 118);
+}
+
+input {
+    background-color: rgb(240, 250, 254);
+    width: 700px;
+    height: 30px;
+    border: none;
+
+}
+
+.s2 {
+    background-color: rgb(240, 250, 254);
+    border: none;
+    height: 55px;
+    width: 100%;
+    color: rgb(44, 44, 104);
+}
+
+.w2 {
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 50px;
+    font-family: sans-serif;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* wissal footer */
+.foot {
+    background-color: rgb(25, 25, 130);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.f {
+    color: white;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.c {
+    color: red;
+    font-size: xx-large;
+}
+
+.socials {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    font-size: x-large;
+}
+
+.socials :hover {
+    color: gray;
+}
+
+.flist {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
