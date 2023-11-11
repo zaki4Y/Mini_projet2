@@ -1,23 +1,42 @@
 /* wissal */
-.foot{
+.red{
+color: red;
+font-family: sans-serif;
+font-size: large;
+
+}
+.blue{
+    color: rgb(37, 37, 106);
+    font-size: xX-large;
+    font-family: sans-serif;
+}
+
+
+
+
+/* wissal footer */
+.foot {
     background-color: rgb(25, 25, 130);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.f{
+
+.f {
     color: white;
     font-size: small;
     font-family: sans-serif;
 
 
-    
+
 }
-.c{
+
+.c {
     color: red;
     font-size: xx-large;
 }
-.socials{
+
+.socials {
     list-style: none;
     text-decoration: none;
     color: white;
@@ -25,10 +44,15 @@
     display: flex;
     justify-content: space-between;
     width: 10%;
+    font-size: x-large;
 }
-.flist{
+.socials :hover{
+    color: gray;
+}
+
+.flist {
     list-style: none;
-    text-decoration: none;  
+    text-decoration: none;
     color: white;
     font-family: sans-serif;
     display: flex;
