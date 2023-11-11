@@ -1,5 +1,33 @@
 /* partie achraf */
 /* section2 */
-/* .s2-parent{
+body{
     display: flex;
-} */
+    justify-content: center;
+}
+.s2-parent{
+    display: flex;
+    width: 80%;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.s2-child{
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    border: gray solid 2px;
+
+}
+.s2-p{
+    font-family: sans-serif;
+    font-size: xx-large;
+    color: rgb(36, 36, 107);
+}
+.s2-button{
+    background-color: red;
+    border-radius: 10px;
+    border: red 3px ;
+    height: 5vh;
+    color: white;
+}
