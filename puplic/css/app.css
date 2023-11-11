@@ -25,9 +25,11 @@
     text-decoration: none;
     margin-left: 50px;
 }
-button {
+.button  {
     border: 10px solid whitesmoke;
     box-shadow: 0 0 5px cyan;
+    
+
 
 }
 .logo:hover {
