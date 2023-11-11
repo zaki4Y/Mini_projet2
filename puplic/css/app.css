@@ -1,10 +1,11 @@
 /* partie achraf */
 /* section2 */
-body{
+body {
     display: flex;
     justify-content: center;
 }
-.s2-parent{
+
+.s2-parent {
     display: flex;
     width: 80%;
     height: 50vh;
@@ -12,43 +13,52 @@ body{
     justify-content: center;
     justify-content: space-around;
 }
+
 /* PART1 */
 
-.s2-child1{
+.s2-child1 {
     width: 30%;
     height: 100%;
 
 }
-.s2-p1{
+
+.s2-p1 {
     font-family: sans-serif;
     font-size: xx-large;
     color: rgb(36, 36, 107);
 }
-.s2-button{
+
+.s2-button {
     background-color: red;
     border-radius: 10px;
-    border: red 3px ;
+    border: red 3px;
     height: 5vh;
     color: white;
 }
-/* part2 */
-img{
+
+/* part2  */
+img {
     margin-top: 1%;
 }
-.s2-p23{
+
+.s2-p23 {
     margin-left: 3%;
     font-family: sans-serif;
     font-size: x-large;
     color: rgb(36, 36, 107);
 }
-.s2-child23{
+
+.s2-child23 {
     width: 30%;
     height: 100%;
     border-radius: 10px;
     border: rgb(245, 235, 235) solid 2px;
 }
-.s2-p232{
+
+.s2-p232 {
     color: rgb(36, 36, 107);
-    font-size:small;
+    font-size: small;
     margin-left: 3%;
 }
+
+/* finich section2 */
