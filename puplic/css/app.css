@@ -17,3 +17,12 @@
     color: red;
     font-size: xx-large;
 }
+.socials{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
